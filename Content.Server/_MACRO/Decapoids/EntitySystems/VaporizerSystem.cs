@@ -10,7 +10,7 @@ using Robust.Shared.Timing;
 
 namespace Content.Server._MACRO.Decapoids.EntitySystems;
 
-public sealed class VaporizerSystem : SharedVaporizerSystem
+public sealed partial class VaporizerSystem : SharedVaporizerSystem
 {
     [Dependency] private SharedSolutionContainerSystem _solution = default!;
 

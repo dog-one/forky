@@ -7,7 +7,7 @@ using Content.Shared.Whitelist;
 
 namespace Content.Server.Speech.EntitySystems;
 
-public sealed class SpeechRequiresEquipmentSystem : EntitySystem
+public sealed partial class SpeechRequiresEquipmentSystem : EntitySystem
 {
     [Dependency] private InventorySystem _inventory = default!;
     [Dependency] private EntityWhitelistSystem _whitelist = default!;
