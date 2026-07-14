@@ -176,9 +176,9 @@
   description: Thin sterile latex gloves. Basic PPE for any doctor.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/latex.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/latex.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/latex.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/latex.rsi
   - type: Fiber
     fiberMaterial: fibers-latex
   - type: FingerprintMask
@@ -190,9 +190,9 @@
   description: High-quality nitrile gloves. Expensive medical PPE.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/nitrile.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/nitrile.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/nitrile.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/nitrile.rsi
   - type: Fiber
     fiberMaterial: fibers-nitrile
   - type: FingerprintMask
@@ -204,9 +204,9 @@
   description: These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin. They're also quite warm.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/leather.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/leather.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/leather.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/leather.rsi
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-brown
@@ -230,6 +230,63 @@
   - type: Fiber
     fiberMaterial: fibers-nanomachines
   - type: FingerprintMask
+
+# Insulated Gloves (Yellow Gloves)
+# Currently can not be greyscaled without looking like shit.
+- type: entity
+  parent: [ClothingHandsBase, BaseSlicingRefinable]
+  id: ClothingHandsGlovesInsuls
+  name: insulated gloves
+  description: These gloves will protect the wearer from electric shocks.
+  components:
+  - type: FingerprintMask
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/insulated.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Hands/Gloves/insulated.rsi
+  - type: ToolRefinable
+    refineResult:
+    - id: ClothingHandsGlovesFingerlessInsulated
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-yellow
+
+# Budget Insulated Gloves
+- type: entity
+  parent: ClothingHandsGlovesInsuls
+  id: ClothingHandsGlovesInsulsBudget
+  name: budget insulated gloves
+  description: These gloves are cheap knockoffs of the coveted ones - no way this can end badly.
+  components:
+  - type: RandomInsulation
+    # Why repeated numbers? So some numbers are more common, of course!
+    list:
+      - 0
+      - 0
+      - 0.5
+      - 0.5
+      - 0.5
+      - 1.5
+      - 1.5
+      - 2
+      - 2.5
+      - 2.5
+      - 3
+      - 3.5
+      - 4
+  - type: Fiber
+    fiberMaterial: fibers-insulative-frayed
+    fiberColor: fibers-yellow
+
+# Conductive Insulated Gloves
+- type: entity
+  parent: ClothingHandsGlovesInsuls
+  id: ClothingHandsGlovesConducting
+  suffix: Conducting
+  components:
+  - type: Insulated
+    coefficient: 5 # zap em good
 
 - type: entity
   parent: ClothingHandsButcherable
@@ -308,9 +365,9 @@
   description: These tactical gloves are fireproof and shock resistant.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/combat.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/combat.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/combat.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/combat.rsi
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative

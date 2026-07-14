@@ -41423,7 +41423,7 @@ entities:
     - type: Transform
       pos: 55.632915,-10.387672
       parent: 2
-- proto: ClothingHandsGlovesColorYellow
+- proto: ClothingHandsGlovesInsuls
   entities:
   - uid: 1563
     components:

@@ -26954,7 +26954,7 @@ entities:
     - type: Transform
       pos: -29.520256,-9.469171
       parent: 31
-- proto: ClothingHandsGlovesColorYellow
+- proto: ClothingHandsGlovesInsuls
   entities:
   - uid: 2523
     components:

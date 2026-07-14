@@ -276,7 +276,7 @@
   id: ToiletCisternRareToolsTable
   table: !type:GroupSelector
     children:
-    - id: ClothingHandsGlovesColorYellow
+    - id: ClothingHandsGlovesInsuls
     - id: DrinkSpaceLube
     - id: WelderIndustrial
     - id: ClothingHeadHatWeldingMaskFlame

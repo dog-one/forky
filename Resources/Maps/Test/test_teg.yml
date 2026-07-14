@@ -1250,7 +1250,7 @@ entities:
     - type: Transform
       pos: -4.696474,5.7329693
       parent: 2
-- proto: ClothingHandsGlovesColorYellow
+- proto: ClothingHandsGlovesInsuls
   entities:
   - uid: 237
     components:

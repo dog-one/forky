@@ -8333,7 +8333,7 @@ entities:
     - type: Transform
       pos: 43.5,6.5
       parent: 1
-- proto: ClothingHandsGlovesColorYellow
+- proto: ClothingHandsGlovesInsuls
   entities:
   - uid: 1082
     components:

@@ -65644,7 +65644,7 @@ entities:
     - type: Transform
       pos: -52.471825,-70.581985
       parent: 2
-- proto: ClothingHandsGlovesColorYellow
+- proto: ClothingHandsGlovesInsuls
   entities:
   - uid: 4381
     components:
