@@ -208,7 +208,7 @@
   description: Regular light brown gloves that do not keep you from frying.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/color.rsi
     layers:
     - state: icon
       color: "#C09F72"
@@ -257,6 +257,35 @@
         color: "#EF8100"
   - type: Fiber
     fiberColor: fibers-orange
+
+  # Yellow Gloves
+- type: entity
+  parent: ClothingHandsGlovesSyntheticBase
+  id: ClothingHandsGlovesColorYellow
+  name: yellow gloves
+  description: Regular yellow gloves that do not keep you from frying.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/color.rsi
+    layers:
+    - state: icon
+      color: "#ffe14d"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#ffe14d"
+      right:
+      - state: inhand-right
+        color: "#ffe14d"
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Hands/Gloves/color.rsi
+    clothingVisuals:
+      gloves:
+      - state: equipped-HAND
+        color: "#ffe14d"
+  - type: Fiber
+    fiberColor: fibers-yellow
 
 # White Gloves
 - type: entity

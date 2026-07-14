@@ -156,9 +156,9 @@
   description: Perfect for dealing with paperwork and matters with bureaucracy.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/hop.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/hop.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/hop.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/hop.rsi
   - type: Fiber
     fiberMaterial: fibers-durathread
     fiberColor: fibers-black
@@ -310,7 +310,7 @@
   description: These black nano-enhanced gloves insulate from electricity and provide fire resistance.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/spaceninja.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/spaceninja.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
@@ -411,9 +411,9 @@
   description: Plain black gloves without fingertips for the hard working.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/fingerless.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/fingerless.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/fingerless.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/fingerless.rsi
   - type: Fiber
     fiberMaterial: fibers-synthetic
     fiberColor: fibers-black
@@ -426,12 +426,12 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesFingerlessInsulated
   name: fingerless insulated gloves
-  description: Insulated gloves resistant to shocks, or at least they used to.
+  description: Insulated gloves resistant to shocks. At least they used to be.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/fingerlessinsuls.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/fingerlessinsuls.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/fingerlessinsuls.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/fingerlessinsuls.rsi
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-yellow
