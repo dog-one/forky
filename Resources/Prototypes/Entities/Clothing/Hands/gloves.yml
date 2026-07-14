@@ -527,9 +527,9 @@
   description: Do not leave fibers or fingerprints. If you work without them, you're A TERRIBLE DETECTIVE.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/forensic.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/forensic.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/forensic.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/forensic.rsi
   - type: FingerprintMask
   - type: GuideHelp
     guides:
