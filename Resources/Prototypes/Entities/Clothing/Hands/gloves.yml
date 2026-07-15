@@ -140,9 +140,9 @@
   description: Regal blue gloves, with a nice gold trim. Swanky.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/captain.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/captain.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/captain.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/captain.rsi
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-durathread
@@ -295,9 +295,9 @@
   description: Beep boop borp!
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/robohands.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/robohands.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/robohands.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/robohands.rsi
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-black
@@ -315,7 +315,7 @@
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/spaceninja.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/spaceninja.rsi
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -359,7 +359,7 @@
       - type: CriminalRecordsHacker
 
 - type: entity
-  parent: [ ClothingHandsGlovesColorBlack, BaseSecurityEngineeringContraband ]
+  parent: [ClothingHandsBase, BaseSecurityEngineeringContraband, BaseSlicingRefinable]
   id: ClothingHandsGlovesCombat
   name: combat gloves
   description: These tactical gloves are fireproof and shock resistant.
@@ -371,8 +371,11 @@
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
+    fiberColor: fibers-black
+  - type: ToolRefinable
+    refineResult:
+    - id: ClothingHandsGlovesFingerless
 
-# can't parent combat gloves since they are butcherable
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsTacticalMaidGloves
@@ -388,15 +391,15 @@
     fiberColor: fibers-black
 
 - type: entity
-  parent: [ BaseSecurityCargoContraband, ClothingHandsGlovesCombat, BaseSlicingRefinable ]
+  parent: [BaseSecurityCargoContraband, ClothingHandsGlovesCombat]
   id: ClothingHandsMercGlovesCombat
   name: mercenary combat gloves
   description: High-quality combat gloves to protect hands from mechanical damage during combat.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/mercbattle.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/mercbattle.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/mercbattle.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/mercbattle.rsi
   - type: ToolRefinable
     refineResult:
     - id: ClothingHandsGlovesMercFingerless
@@ -447,9 +450,9 @@
   description: Gloves that may not protect you from finger burns, but will make you cooler.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/mercfingerless.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/mercfingerless.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/mercfingerless.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/mercfingerless.rsi
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-olive
