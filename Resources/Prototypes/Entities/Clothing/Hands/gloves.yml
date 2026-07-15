@@ -140,9 +140,9 @@
   description: Regal blue gloves, with a nice gold trim. Swanky.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/captain.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/captain.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/captain.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/captain.rsi #funky resprite
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-durathread
@@ -156,9 +156,9 @@
   description: Perfect for dealing with paperwork and matters with bureaucracy.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/hop.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/hop.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/hop.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/hop.rsi #funky resprite
   - type: Fiber
     fiberMaterial: fibers-durathread
     fiberColor: fibers-black
@@ -176,9 +176,9 @@
   description: Thin sterile latex gloves. Basic PPE for any doctor.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/latex.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/latex.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/latex.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/latex.rsi #funky resprite
   - type: Fiber
     fiberMaterial: fibers-latex
   - type: FingerprintMask
@@ -190,9 +190,9 @@
   description: High-quality nitrile gloves. Expensive medical PPE.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/nitrile.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/nitrile.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/nitrile.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/nitrile.rsi #funky resprite
   - type: Fiber
     fiberMaterial: fibers-nitrile
   - type: FingerprintMask
@@ -204,9 +204,9 @@
   description: These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin. They're also quite warm.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/leather.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/leather.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/leather.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/leather.rsi #funky resprite
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-brown
@@ -241,9 +241,9 @@
   components:
   - type: FingerprintMask
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/insulated.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/insulated.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/insulated.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/insulated.rsi #funky resprite
   - type: ToolRefinable
     refineResult:
     - id: ClothingHandsGlovesFingerlessInsulated
@@ -295,9 +295,9 @@
   description: Beep boop borp!
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/robohands.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/robohands.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/robohands.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/robohands.rsi #funky resprite
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-black
@@ -310,12 +310,12 @@
   description: These black nano-enhanced gloves insulate from electricity and provide fire resistance.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/spaceninja.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/spaceninja.rsi #funky resprite
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/spaceninja.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/spaceninja.rsi #funky resprite
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -365,9 +365,9 @@
   description: These tactical gloves are fireproof and shock resistant.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/combat.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/combat.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/combat.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/combat.rsi #funky resprite
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
@@ -397,9 +397,9 @@
   description: High-quality combat gloves to protect hands from mechanical damage during combat.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/mercbattle.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/mercbattle.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/mercbattle.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/mercbattle.rsi #funky resprite
   - type: ToolRefinable
     refineResult:
     - id: ClothingHandsGlovesMercFingerless
@@ -414,9 +414,9 @@
   description: Plain black gloves without fingertips for the hard working.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/fingerless.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/fingerless.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/fingerless.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/fingerless.rsi #funky resprite
   - type: Fiber
     fiberMaterial: fibers-synthetic
     fiberColor: fibers-black
@@ -432,9 +432,9 @@
   description: Insulated gloves resistant to shocks. At least they used to be.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/fingerlessinsuls.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/fingerlessinsuls.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/fingerlessinsuls.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/fingerlessinsuls.rsi #funky resprite
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-yellow
@@ -450,9 +450,9 @@
   description: Gloves that may not protect you from finger burns, but will make you cooler.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/mercfingerless.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/mercfingerless.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/mercfingerless.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/mercfingerless.rsi #funky resprite
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-olive
@@ -530,9 +530,9 @@
   description: Do not leave fibers or fingerprints. If you work without them, you're A TERRIBLE DETECTIVE.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/forensic.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/forensic.rsi #funky resprite
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/forensic.rsi
+    sprite: _Funkystation/Clothing/Hands/Gloves/forensic.rsi #funky resprite
   - type: FingerprintMask
   - type: GuideHelp
     guides:
