@@ -49,9 +49,9 @@
     sprite: _Funkystation/Clothing/Hands/Gloves/ceinsuls.rsi
   - type: Clothing
     sprite: _Funkystation/Clothing/Hands/Gloves/ceinsuls.rsi
-  - type: Insulated
-    coefficient: 0.0
-    maxSiemensThreshold: 4
+# - type: Insulated #Hi this not implemented Yet sorry check Fail
+#   coefficient: 0.0
+#   maxSiemensThreshold: 4
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-black
@@ -66,9 +66,9 @@
     sprite: _Funkystation/Clothing/Hands/Gloves/arcgloves.rsi
   - type: Clothing
     sprite: _Funkystation/Clothing/Hands/Gloves/arcgloves.rsi
-  - type: Insulated
-    coefficient: 0.0
-    maxSiemensThreshold: 4
+# - type: Insulated
+#   coefficient: 0.0
+#   maxSiemensThreshold: 4
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-white
