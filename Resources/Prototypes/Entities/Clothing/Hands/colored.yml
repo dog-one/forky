@@ -317,6 +317,7 @@
     fiberColor: fibers-white
 
 # Black Gloves
+# all commented out colors here are funky changes so the gloves use the correct palette
 - type: entity
   parent: [ClothingHandsGlovesSyntheticBase, BaseSlicingRefinable]
   id: ClothingHandsGlovesColorBlack
@@ -324,24 +325,24 @@
   description: Regular black gloves that do not keep you from frying.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/color.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/black.rsi #funky resprite, use black here so it doesn't conflict with chameleon colors
     layers:
     - state: icon
-      color: "#595757"
+#     color: "#595757"
   - type: Item
     inhandVisuals:
       left:
       - state: inhand-left
-        color: "#595757"
+#       color: "#595757"
       right:
       - state: inhand-right
-        color: "#595757"
+#       color: "#595757"
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/color.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/black.rsi #funky resprite
     clothingVisuals:
       gloves:
       - state: equipped-HAND
-        color: "#595757"
+#       color: "#595757"
   - type: ToolRefinable
     refineResult:
     - id: ClothingHandsGlovesFingerless
