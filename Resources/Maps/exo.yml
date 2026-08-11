@@ -44437,7 +44437,7 @@ entities:
     - type: Transform
       pos: 77.48632,-19.524714
       parent: 2
-- proto: FuClothingHandsGlovesInsuls #funky
+- proto: ClothingHandsGlovesColorYellow
   entities:
   - uid: 5844
     components:
@@ -44449,7 +44449,7 @@ entities:
     - type: Transform
       pos: -14.121066,-60.692104
       parent: 2
-- proto: FuClothingHandsGlovesInsulsBudget #funky
+- proto: ClothingHandsGlovesColorYellowBudget
   entities:
   - uid: 7938
     components:

@@ -82320,14 +82320,14 @@ entities:
     - type: Transform
       pos: -52.507572,-3.3756137
       parent: 2
-- proto: FuClothingHandsGlovesInsuls #funky
+- proto: ClothingHandsGlovesColorYellow
   entities:
   - uid: 6656
     components:
     - type: Transform
       pos: 3.513458,43.96186
       parent: 2
-- proto: FuClothingHandsGlovesInsulsBudget #funky
+- proto: ClothingHandsGlovesColorYellowBudget
   entities:
   - uid: 23694
     components:

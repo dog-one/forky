@@ -861,7 +861,6 @@ LockerHeadOfPersonnelFilled: LockerExecutiveOfficerFilled
 # 2026-08-11 - BigGlove Resprite
 ClothingGlovesHandsColorYellow: FuClothingHandsGlovesInsuls
 ClothingGlovesHandsColorYellowBudget: FuClothingHandsGlovesInsulsBudget
-ClothingGlovesHandsFingerlessInsulated: FuClothingHandsGlovesInsulsFingerless
 
 # TODO: When the RG-2 and its safe are ported over, uncomment the line below and add a timestamp.
 #GunSafeDisabler: GunSafePistolRg2

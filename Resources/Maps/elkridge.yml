@@ -52943,7 +52943,7 @@ entities:
     - type: Transform
       pos: -70.281,-10.984222
       parent: 2
-- proto: FuClothingHandsGlovesInsuls #funky
+- proto: ClothingHandsGlovesColorYellow
   entities:
   - uid: 6231
     components:

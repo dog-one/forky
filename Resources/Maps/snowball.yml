@@ -43381,7 +43381,7 @@ entities:
     - type: Transform
       pos: 37.5,77.5
       parent: 1
-- proto: FuClothingHandsGlovesInsuls #funky
+- proto: ClothingHandsGlovesColorYellow
   entities:
   - uid: 5840
     components:
