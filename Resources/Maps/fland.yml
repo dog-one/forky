@@ -103469,7 +103469,7 @@ entities:
     - type: Transform
       pos: 58.44215,23.562126
       parent: 13329
-- proto: ClothingHandsGlovesInsuls
+- proto: FuClothingHandsGlovesInsuls #funky
   entities:
   - uid: 26249
     components:

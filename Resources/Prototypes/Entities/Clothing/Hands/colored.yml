@@ -261,7 +261,7 @@
   # Yellow Gloves
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
-  id: ClothingHandsGlovesColorYellow
+  id: FuClothingHandsGlovesColorYellow
   name: yellow gloves
   description: Regular yellow gloves that do not keep you from frying.
   components:

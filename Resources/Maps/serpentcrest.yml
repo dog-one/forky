@@ -71523,7 +71523,7 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
       storage: 8288
-- proto: ClothingHandsGlovesInsuls
+- proto: FuClothingHandsGlovesInsuls #funky
   entities:
   - uid: 6577
     components:

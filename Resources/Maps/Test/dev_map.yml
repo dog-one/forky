@@ -9005,7 +9005,7 @@ entities:
     - type: Transform
       pos: 41.5,63.5
       parent: 1
-- proto: ClothingHandsGlovesInsuls
+- proto: FuClothingHandsGlovesInsuls #funky
   entities:
   - uid: 578
     components:

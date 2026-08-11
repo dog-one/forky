@@ -286,9 +286,9 @@
         orGroup: GiftPool
       - id: ClothingHandsGlovesColorPurple
         orGroup: GiftPool
-      - id: ClothingHandsGlovesInsuls
+      - id: FuClothingHandsGlovesInsuls
         orGroup: GiftPool
-      - id: ClothingHandsGlovesInsulsBudget
+      - id: FuClothingHandsGlovesInsulsBudget
         orGroup: GiftPool
       - id: ClothingEyesGlassesSunglasses
         orGroup: GiftPool

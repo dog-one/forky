@@ -162,7 +162,7 @@
       weight: 0.005
     - id: ClothingNeckScarfStripedSyndieRed
       weight: 0.005
-    - id: ClothingHandsGlovesInsulsBudget
+    - id: FuClothingHandsGlovesInsulsBudget
       weight: 0.002
     - id: ClothingUniformJumpsuitPyjamaSyndicatePink
       weight: 0.002

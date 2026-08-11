@@ -53,5 +53,5 @@
     mask: ClothingMaskBreath
     neck: ClothingNeckCloakCe
     outerClothing: ClothingOuterWinterCE
-    gloves: ClothingHandsGlovesInsuls
+    gloves: FuClothingHandsGlovesInsuls
     shoes: ClothingShoesBootsMagAdv
