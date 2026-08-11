@@ -140,9 +140,9 @@
   description: Regal blue gloves, with a nice gold trim. Swanky.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/captain.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/captain.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/captain.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/captain.rsi
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-durathread
@@ -156,9 +156,9 @@
   description: Perfect for dealing with paperwork and matters with bureaucracy.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/hop.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/hop.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/hop.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/hop.rsi
   - type: Fiber
     fiberMaterial: fibers-durathread
     fiberColor: fibers-black
@@ -176,9 +176,9 @@
   description: Thin sterile latex gloves. Basic PPE for any doctor.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/latex.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/latex.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/latex.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/latex.rsi
   - type: Fiber
     fiberMaterial: fibers-latex
   - type: FingerprintMask
@@ -190,9 +190,9 @@
   description: High-quality nitrile gloves. Expensive medical PPE.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/nitrile.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/nitrile.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/nitrile.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/nitrile.rsi
   - type: Fiber
     fiberMaterial: fibers-nitrile
   - type: FingerprintMask
@@ -204,9 +204,9 @@
   description: These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin. They're also quite warm.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/leather.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/leather.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/leather.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/leather.rsi
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-brown
@@ -235,15 +235,15 @@
 # Currently can not be greyscaled without looking like shit.
 - type: entity
   parent: [ClothingHandsBase, BaseSlicingRefinable]
-  id: FuClothingHandsGlovesInsuls
+  id: ClothingHandsGlovesColorYellow
   name: insulated gloves
   description: These gloves will protect the wearer from electric shocks.
   components:
   - type: FingerprintMask
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/insulated.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/insulated.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/insulated.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/insulated.rsi
   - type: ToolRefinable
     refineResult:
     - id: ClothingHandsGlovesFingerlessInsulated
@@ -254,8 +254,8 @@
 
 # Budget Insulated Gloves
 - type: entity
-  parent: FuClothingHandsGlovesInsuls
-  id: FuClothingHandsGlovesInsulsBudget
+  parent: ClothingHandsGlovesColorYellow
+  id: ClothingHandsGlovesColorYellowBudget
   name: budget insulated gloves
   description: These gloves are cheap knockoffs of the coveted ones - no way this can end badly.
   components:
@@ -279,15 +279,6 @@
     fiberMaterial: fibers-insulative-frayed
     fiberColor: fibers-yellow
 
-# Conductive Insulated Gloves
-- type: entity
-  parent: FuClothingHandsGlovesInsuls
-  id: ClothingHandsGlovesConducting
-  suffix: Conducting
-  components:
-  - type: Insulated
-    coefficient: 5 # zap em good
-
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesRobohands
@@ -295,9 +286,9 @@
   description: Beep boop borp!
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/robohands.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/robohands.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/robohands.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/robohands.rsi
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-black
@@ -310,12 +301,12 @@
   description: These black nano-enhanced gloves insulate from electricity and provide fire resistance.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/spaceninja.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/spaceninja.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/spaceninja.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/spaceninja.rsi
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -359,23 +350,20 @@
       - type: CriminalRecordsHacker
 
 - type: entity
-  parent: [ClothingHandsBase, BaseSecurityEngineeringContraband, BaseSlicingRefinable]
+  parent: [ ClothingHandsGlovesColorBlack, BaseSecurityEngineeringContraband ]
   id: ClothingHandsGlovesCombat
   name: combat gloves
   description: These tactical gloves are fireproof and shock resistant.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/combat.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/combat.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/combat.rsi #funky resprite
+    sprite: _Funkystation/Clothing/Hands/Gloves/combat.rsi
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
-    fiberColor: fibers-black
-  - type: ToolRefinable
-    refineResult:
-    - id: ClothingHandsGlovesFingerless
 
+# can't parent combat gloves since they are butcherable
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsTacticalMaidGloves
@@ -391,15 +379,15 @@
     fiberColor: fibers-black
 
 - type: entity
-  parent: [BaseSecurityCargoContraband, ClothingHandsGlovesCombat]
+  parent: [ BaseSecurityCargoContraband, ClothingHandsGlovesCombat, BaseSlicingRefinable ]
   id: ClothingHandsMercGlovesCombat
   name: mercenary combat gloves
   description: High-quality combat gloves to protect hands from mechanical damage during combat.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/mercbattle.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/mercbattle.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/mercbattle.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/mercbattle.rsi
   - type: ToolRefinable
     refineResult:
     - id: ClothingHandsGlovesMercFingerless
@@ -414,9 +402,9 @@
   description: Plain black gloves without fingertips for the hard working.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/fingerless.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/fingerless.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/fingerless.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/fingerless.rsi
   - type: Fiber
     fiberMaterial: fibers-synthetic
     fiberColor: fibers-black
@@ -425,23 +413,24 @@
       flatReductions:
         Heat: 0 # no protection
 
-- type: entity
-  parent: ClothingHandsBase
-  id: ClothingHandsGlovesFingerlessInsulated
-  name: fingerless insulated gloves
-  description: Insulated gloves resistant to shocks. At least they used to be.
-  components:
-  - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/fingerlessinsuls.rsi #funky resprite
-  - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/fingerlessinsuls.rsi #funky resprite
-  - type: Fiber
-    fiberMaterial: fibers-insulative
-    fiberColor: fibers-yellow
-  - type: DamageOnInteractProtection
-    damageProtection:
-      flatReductions:
-        Heat: 0 # no protection
+# Funky,
+#- type: entity
+#  parent: ClothingHandsBase
+#  id: ClothingHandsGlovesFingerlessInsulated
+#  name: fingerless insulated gloves
+#  description: Insulated gloves resistant to shocks, or at least they used to.
+#  components:
+#  - type: Sprite
+#    sprite: Clothing/Hands/Gloves/fingerlessinsuls.rsi
+#  - type: Clothing
+#    sprite: Clothing/Hands/Gloves/fingerlessinsuls.rsi
+#  - type: Fiber
+#    fiberMaterial: fibers-insulative
+#    fiberColor: fibers-yellow
+#  - type: DamageOnInteractProtection
+#    damageProtection:
+#      flatReductions:
+#        Heat: 0 # no protection
 
 - type: entity
   parent: ClothingHandsButcherable
@@ -450,9 +439,9 @@
   description: Gloves that may not protect you from finger burns, but will make you cooler.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/mercfingerless.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/mercfingerless.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/mercfingerless.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/mercfingerless.rsi
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-olive
@@ -530,9 +519,9 @@
   description: Do not leave fibers or fingerprints. If you work without them, you're A TERRIBLE DETECTIVE.
   components:
   - type: Sprite
-    sprite: _Funkystation/Clothing/Hands/Gloves/forensic.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/forensic.rsi
   - type: Clothing
-    sprite: _Funkystation/Clothing/Hands/Gloves/forensic.rsi #funky resprite
+    sprite: Clothing/Hands/Gloves/forensic.rsi
   - type: FingerprintMask
   - type: GuideHelp
     guides:
