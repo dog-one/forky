@@ -1,4 +1,4 @@
-i- type: entity
+- type: entity
   parent: ClothingBackpackDuffelMedical
   id: ClothingBackpackDuffelSurgeryFilled
   name: surgical duffel bag
