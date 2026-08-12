@@ -359,7 +359,7 @@
   - type: Sprite
     sprite: _Funkystation/Clothing/Hands/Gloves/fingerless.rsi #Funky
   - type: Clothing
-    sprite: _Funkystation//Gloves/fingerless.rsi #Funky
+    sprite: _Funkystation/Clothing/Hands/Gloves/fingerless.rsi #Funky
   - type: Fiber
     fiberMaterial: fibers-synthetic
     fiberColor: fibers-black
