@@ -1,4 +1,4 @@
-- type: entity
+i- type: entity
   parent: ClothingBackpackDuffelMedical
   id: ClothingBackpackDuffelSurgeryFilled
   name: surgical duffel bag
@@ -304,7 +304,7 @@
         - id: ClothingHeadHelmetSyndicate
         - id: ClothingOuterEVASuitSyndicate
         - id: ClothingMaskGasSyndicate
-        - id: ClothingHandsGlovesInsulsBudget
+        - id: FuClothingHandsGlovesInsulsBudget #Funky
         - id: DoubleEmergencyOxygenTankFilled
         - id: DoubleEmergencyNitrogenTankFilled
         - id: SuitSealantCanister # Funky
