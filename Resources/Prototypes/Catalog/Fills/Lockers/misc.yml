@@ -277,7 +277,7 @@
   id: ToiletCisternRareToolsTable
   table: !type:GroupSelector
     children:
-    - id: FuClothingHandsGlovesInsuls
+    - id: FuClothingHandsGlovesInsuls #Funky
     - id: DrinkSpaceLube
     - id: WelderIndustrial
     - id: ClothingHeadHatWeldingMaskFlame

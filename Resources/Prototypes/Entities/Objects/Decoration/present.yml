@@ -286,9 +286,9 @@
         orGroup: GiftPool
       - id: ClothingHandsGlovesColorPurple
         orGroup: GiftPool
-      - id: FuClothingHandsGlovesInsuls
+      - id: FuClothingHandsGlovesInsuls #Funky
         orGroup: GiftPool
-      - id: FuClothingHandsGlovesInsulsBudget
+      - id: FuClothingHandsGlovesInsulsBudget #Funky
         orGroup: GiftPool
       - id: ClothingEyesGlassesSunglasses
         orGroup: GiftPool

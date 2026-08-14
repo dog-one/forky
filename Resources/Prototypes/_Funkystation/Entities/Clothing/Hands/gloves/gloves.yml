@@ -42,7 +42,7 @@
 # Insulated Gloves
 - type: entity
   parent: [ClothingHandsBase, BaseSlicingRefinable]
-  id: FuClothingHandsGlovesInsuls
+  id: FuClothingHandsGlovesInsuls #Funky
   name: insulated gloves
   description: These gloves will protect the wearer from electric shocks.
   components:

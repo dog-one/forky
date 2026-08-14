@@ -34,5 +34,5 @@
     mask: ClothingMaskBreath
     neck: ClothingNeckScarfStripedOrange
     outerClothing: ClothingOuterWinterEngi
-    gloves: FuClothingHandsGlovesInsuls
+    gloves: FuClothingHandsGlovesInsuls #Funky
     shoes: ClothingShoesBootsMag
