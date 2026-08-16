@@ -302,7 +302,7 @@
       - type: CriminalRecordsHacker
 
 - type: entity
-  parent: [ClothingHandsBase, BaseSecurityEngineeringContraband, BaseSlicingRefinable]
+  parent: [ ClothingHandsBase, BaseSecurityEngineeringContraband, BaseSlicingRefinable ] #funky change so gloves do not get discolored
   id: ClothingHandsGlovesCombat
   name: combat gloves
   description: These tactical gloves are fireproof and shock resistant.
@@ -314,7 +314,7 @@
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
-  - type: ToolRefinable
+  - type: ToolRefinable #funky
     refineResult:
     - id: ClothingHandsGlovesFingerless
 
